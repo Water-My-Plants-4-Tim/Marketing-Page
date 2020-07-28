@@ -46,7 +46,7 @@ table {
 
 /*Starting here*/
 body {
-    border: 25px solid #00331B;
+    border: 10px solid #00331B;
     background-image: url(https://images.unsplash.com/photo-1551970634-747846a548cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,14 +70,16 @@ header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin-left: 2%;
+ 
 }
+
 .nav {
   width: 30%;
   display: flex;
   justify-content: space-around;
   align-content:center;
-  
 }
+
 .nav a {
   text-decoration: none;
   font-family: 'Domine', serif;
@@ -90,28 +92,29 @@ header {
   font-size: 1.4em;
 }
 .nav a:hover {
-  color: rgb(81, 255, 255); 
+  color: green; 
 }
 .container1 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 5%;
+  margin-top: 2%;
+
 }
 
 .plant img{
   width: 50%;
   margin-left: 10%;
- 
+  
 }
 
 .text {
   width: 100%;
+  border-radius: 10px;
   font-family: 'Domine', serif;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   background-color: rgb(86, 194, 158);
-
  
 }
 
@@ -142,18 +145,23 @@ figcaption {
   color: lightseagreen;
 }
 figcaption {
-  width: 50%;
+  width: 75%;
 }
-
+figcaption hr{
+  border: 1px dashed white;
+}
 .img-container1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 5%;
+  background-color: white;
+ 
 }
 .img-container1 .item1 {
   width: 400px;
   height: 400px;
+  margin-top: 5%;
 }
 .img-container1 p{
   text-align: center;
@@ -169,10 +177,13 @@ figcaption {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 5%;
+  background-color: white;
+
 }
 .img-container2 .item2 {
   width: 400px;
   height: 400px;
+  margin-top: 5%;
 }
 .img-container2 p{
   text-align: center;
@@ -197,23 +208,7 @@ figcaption {
   text-align: center;
   padding-top: 2%;
 }
-/* .learn-more-button {
-  width: 94%;
-  border: none;
-  color: white;
-  text-align: center;
-  padding: 3%;
-  border-radius: 10px;
-  font-size: 20px;
-}
-.learn-more-button a {
-  text-decoration: none;
-  background-color: rgb(114, 250, 216) ;
-}
 
-.learn-more-button:hover {
-  color: green;
-} */
 .about-container {
   width: 100%;
   display: flex;
@@ -236,16 +231,26 @@ figcaption {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 2%;
+  margin-left: 2%;
   
 }
 .p-tag {
   width: 50%;
-  background-color: lightgoldenrodyellow;
+  background-color: lightgray;
 }
+.p-tag h2{
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
 .p-tag figcaption {
-  margin-left: 30%;
+  margin-left: 10%;
   margin-top: 10%;
   font-size: 1.6em;
+
 }
 .patio {
   width: 50%;
@@ -257,6 +262,7 @@ figcaption {
   width: 400px;
   height: 400px;
   margin-top: 5%;
+  margin-left: 20%;
 }
 
 
@@ -351,10 +357,14 @@ figcaption {
     align-items: center;
     flex-wrap: wrap;
   }
+  .header-container h1{
+    font-size: 3em;
+  }
+
   .header-container nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
  
   }
 
