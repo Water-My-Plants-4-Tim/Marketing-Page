@@ -51,6 +51,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    font-size: 67.5%
 
   }
 
@@ -325,6 +326,7 @@ figcaption hr{
     flex-wrap: wrap;
     align-items: center;
     margin-right: 100%;
+    /* font-weight: 10px; */
   }
 
   .container1 img {
@@ -362,15 +364,13 @@ figcaption hr{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
   }
 
 }
 
 @media(max-width: 500px) {
-  body{
-    border: 2px solid #00331B;
-    margin: 0 auto;
-  }
+
 
   .header-container{
     display: flex;
@@ -437,6 +437,13 @@ figcaption hr{
     flex-wrap: wrap;
     flex-direction: column;
   }
+.p-tag {
+  width: 90%;
+}
+  .p-tag img{
+    width: 75%;
+  }
+
   footer {
     display: flex;
    
